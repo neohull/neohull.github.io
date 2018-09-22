@@ -52,7 +52,7 @@
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
 				<li><a class="smoothscroll"  href="#mission" title="blog">Mission</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">Team</a></li>
-                <li><a class="smoothscroll"  href="#journey" title="journey">Our Journey</a></li>
+                <li><a class="smoothscroll"  href="#journey" title="journey">Journey</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
             </ul>
         </nav>
@@ -80,13 +80,14 @@
                     NeoDesign. <p></p>
                     We are NeoHull.
                 </h1>
+				<?php $image =  basename("images/brochure.png"); ?>
 
                 <div class="home-content__buttons">
                     <a href="#about" class="smoothscroll btn btn--stroke">
                         About Us
                     </a>
-                    <a href="#journey" class="smoothscroll btn btn--stroke">
-                        Our Journey
+                    <a download="<?php echo $image; ?>" href="images/brochure.png" class="btn btn--stroke">
+                        Get Brochure
                     </a>
                 </div>
 
@@ -457,8 +458,8 @@
             </div>
             <div class="col-four tab-full contact__infos">
                 <h4 class="h06">Phone</h4>
-                <p>Phone: 9901865755<br>
-                Mobile: 8197228485<br>
+                <p>Phone: 8197228485<br>
+                Mobile: 9901865755<br>
                 </p>
 
                 <h4 class="h06">Email</h4>
